@@ -1,0 +1,6 @@
+deployAs:
+  - name: customers-cron
+    applicationType: job
+    endpoint: /job
+    properties:
+      schedule: "*/5 * * * *"
